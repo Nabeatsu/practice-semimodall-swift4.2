@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		55112FA0224896A1003F3FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55112F9F224896A1003F3FFA /* AppDelegate.swift */; };
-		55112FA2224896A1003F3FFA /* TinyConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55112FA1224896A1003F3FFA /* TinyConstraintsViewController.swift */; };
+		55112FA2224896A1003F3FFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55112FA1224896A1003F3FFA /* ViewController.swift */; };
 		55112FA5224896A1003F3FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55112FA3224896A1003F3FFA /* Main.storyboard */; };
 		55112FA7224896A3003F3FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55112FA6224896A3003F3FFA /* Assets.xcassets */; };
 		55112FAA224896A3003F3FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55112FA8224896A3003F3FFA /* LaunchScreen.storyboard */; };
 		55112FB5224896A3003F3FFA /* practice_semimodall_swift4_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55112FB4224896A3003F3FFA /* practice_semimodall_swift4_2Tests.swift */; };
+		55112FC02248AC08003F3FFA /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55112FBF2248AC08003F3FFA /* ModalView.swift */; };
 		B22E888ECBEC01501C2147CA /* Pods_practice_semimodall_swift4_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6F646B72E4FC0E0511860D /* Pods_practice_semimodall_swift4_2.framework */; };
 		E8E8F0B322975FF3E9AF63FE /* Pods_practice_semimodall_swift4_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F2B0C5719927AF3020A128 /* Pods_practice_semimodall_swift4_2Tests.framework */; };
 /* End PBXBuildFile section */
@@ -32,7 +33,7 @@
 		38FCADCD226215ED638EDEFD /* Pods-practice-semimodall-swift4.2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-semimodall-swift4.2Tests.release.xcconfig"; path = "Target Support Files/Pods-practice-semimodall-swift4.2Tests/Pods-practice-semimodall-swift4.2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		55112F9C224896A1003F3FFA /* practice-semimodall-swift4.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "practice-semimodall-swift4.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55112F9F224896A1003F3FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55112FA1224896A1003F3FFA /* TinyConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyConstraintsViewController.swift; sourceTree = "<group>"; };
+		55112FA1224896A1003F3FFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55112FA4224896A1003F3FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55112FA6224896A3003F3FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55112FA9224896A3003F3FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		55112FB0224896A3003F3FFA /* practice-semimodall-swift4.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "practice-semimodall-swift4.2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55112FB4224896A3003F3FFA /* practice_semimodall_swift4_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice_semimodall_swift4_2Tests.swift; sourceTree = "<group>"; };
 		55112FB6224896A3003F3FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55112FBF2248AC08003F3FFA /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		56FB144BC4C7B9B730FC0043 /* Pods-practice-semimodall-swift4.2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-semimodall-swift4.2Tests.debug.xcconfig"; path = "Target Support Files/Pods-practice-semimodall-swift4.2Tests/Pods-practice-semimodall-swift4.2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F6F646B72E4FC0E0511860D /* Pods_practice_semimodall_swift4_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practice_semimodall_swift4_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA487E29F08919F66A18DA16 /* Pods-practice-semimodall-swift4.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-semimodall-swift4.2.debug.xcconfig"; path = "Target Support Files/Pods-practice-semimodall-swift4.2/Pods-practice-semimodall-swift4.2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,11 +92,12 @@
 			isa = PBXGroup;
 			children = (
 				55112F9F224896A1003F3FFA /* AppDelegate.swift */,
-				55112FA1224896A1003F3FFA /* TinyConstraintsViewController.swift */,
+				55112FA1224896A1003F3FFA /* ViewController.swift */,
 				55112FA3224896A1003F3FFA /* Main.storyboard */,
 				55112FA6224896A3003F3FFA /* Assets.xcassets */,
 				55112FA8224896A3003F3FFA /* LaunchScreen.storyboard */,
 				55112FAB224896A3003F3FFA /* Info.plist */,
+				55112FBF2248AC08003F3FFA /* ModalView.swift */,
 			);
 			path = "practice-semimodall-swift4.2";
 			sourceTree = "<group>";
@@ -296,7 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55112FA2224896A1003F3FFA /* TinyConstraintsViewController.swift in Sources */,
+				55112FC02248AC08003F3FFA /* ModalView.swift in Sources */,
+				55112FA2224896A1003F3FFA /* ViewController.swift in Sources */,
 				55112FA0224896A1003F3FFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,7 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YN75UE492H;
 				INFOPLIST_FILE = "practice-semimodall-swift4.2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -480,7 +484,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YN75UE492H;
 				INFOPLIST_FILE = "practice-semimodall-swift4.2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
