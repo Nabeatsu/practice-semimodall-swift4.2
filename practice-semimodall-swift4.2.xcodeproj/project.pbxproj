@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55112FA0224896A1003F3FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55112F9F224896A1003F3FFA /* AppDelegate.swift */; };
+		55112FA2224896A1003F3FFA /* TinyConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55112FA1224896A1003F3FFA /* TinyConstraintsViewController.swift */; };
+		55112FA5224896A1003F3FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55112FA3224896A1003F3FFA /* Main.storyboard */; };
+		55112FA7224896A3003F3FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55112FA6224896A3003F3FFA /* Assets.xcassets */; };
+		55112FAA224896A3003F3FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55112FA8224896A3003F3FFA /* LaunchScreen.storyboard */; };
+		55112FB5224896A3003F3FFA /* practice_semimodall_swift4_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55112FB4224896A3003F3FFA /* practice_semimodall_swift4_2Tests.swift */; };
+		B22E888ECBEC01501C2147CA /* Pods_practice_semimodall_swift4_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6F646B72E4FC0E0511860D /* Pods_practice_semimodall_swift4_2.framework */; };
+		E8E8F0B322975FF3E9AF63FE /* Pods_practice_semimodall_swift4_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F2B0C5719927AF3020A128 /* Pods_practice_semimodall_swift4_2Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55112FB1224896A3003F3FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55112F94224896A1003F3FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55112F9B224896A1003F3FFA;
+			remoteInfo = "practice-semimodall-swift4.2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35F2B0C5719927AF3020A128 /* Pods_practice_semimodall_swift4_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practice_semimodall_swift4_2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FCADCD226215ED638EDEFD /* Pods-practice-semimodall-swift4.2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-semimodall-swift4.2Tests.release.xcconfig"; path = "Target Support Files/Pods-practice-semimodall-swift4.2Tests/Pods-practice-semimodall-swift4.2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		55112F9C224896A1003F3FFA /* practice-semimodall-swift4.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "practice-semimodall-swift4.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55112F9F224896A1003F3FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55112FA1224896A1003F3FFA /* TinyConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyConstraintsViewController.swift; sourceTree = "<group>"; };
+		55112FA4224896A1003F3FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55112FA6224896A3003F3FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55112FA9224896A3003F3FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55112FAB224896A3003F3FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55112FB0224896A3003F3FFA /* practice-semimodall-swift4.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "practice-semimodall-swift4.2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55112FB4224896A3003F3FFA /* practice_semimodall_swift4_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice_semimodall_swift4_2Tests.swift; sourceTree = "<group>"; };
+		55112FB6224896A3003F3FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FB144BC4C7B9B730FC0043 /* Pods-practice-semimodall-swift4.2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-semimodall-swift4.2Tests.debug.xcconfig"; path = "Target Support Files/Pods-practice-semimodall-swift4.2Tests/Pods-practice-semimodall-swift4.2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F6F646B72E4FC0E0511860D /* Pods_practice_semimodall_swift4_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practice_semimodall_swift4_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA487E29F08919F66A18DA16 /* Pods-practice-semimodall-swift4.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-semimodall-swift4.2.debug.xcconfig"; path = "Target Support Files/Pods-practice-semimodall-swift4.2/Pods-practice-semimodall-swift4.2.debug.xcconfig"; sourceTree = "<group>"; };
+		FAAC87F670C82A40477356D7 /* Pods-practice-semimodall-swift4.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-semimodall-swift4.2.release.xcconfig"; path = "Target Support Files/Pods-practice-semimodall-swift4.2/Pods-practice-semimodall-swift4.2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55112F99224896A1003F3FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22E888ECBEC01501C2147CA /* Pods_practice_semimodall_swift4_2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55112FAD224896A3003F3FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E8F0B322975FF3E9AF63FE /* Pods_practice_semimodall_swift4_2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55112F93224896A1003F3FFA = {
+			isa = PBXGroup;
+			children = (
+				55112F9E224896A1003F3FFA /* practice-semimodall-swift4.2 */,
+				55112FB3224896A3003F3FFA /* practice-semimodall-swift4.2Tests */,
+				55112F9D224896A1003F3FFA /* Products */,
+				7FA9858B7D6336193DFBE66E /* Pods */,
+				B476AD735F113D3413F670C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55112F9D224896A1003F3FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55112F9C224896A1003F3FFA /* practice-semimodall-swift4.2.app */,
+				55112FB0224896A3003F3FFA /* practice-semimodall-swift4.2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55112F9E224896A1003F3FFA /* practice-semimodall-swift4.2 */ = {
+			isa = PBXGroup;
+			children = (
+				55112F9F224896A1003F3FFA /* AppDelegate.swift */,
+				55112FA1224896A1003F3FFA /* TinyConstraintsViewController.swift */,
+				55112FA3224896A1003F3FFA /* Main.storyboard */,
+				55112FA6224896A3003F3FFA /* Assets.xcassets */,
+				55112FA8224896A3003F3FFA /* LaunchScreen.storyboard */,
+				55112FAB224896A3003F3FFA /* Info.plist */,
+			);
+			path = "practice-semimodall-swift4.2";
+			sourceTree = "<group>";
+		};
+		55112FB3224896A3003F3FFA /* practice-semimodall-swift4.2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55112FB4224896A3003F3FFA /* practice_semimodall_swift4_2Tests.swift */,
+				55112FB6224896A3003F3FFA /* Info.plist */,
+			);
+			path = "practice-semimodall-swift4.2Tests";
+			sourceTree = "<group>";
+		};
+		7FA9858B7D6336193DFBE66E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA487E29F08919F66A18DA16 /* Pods-practice-semimodall-swift4.2.debug.xcconfig */,
+				FAAC87F670C82A40477356D7 /* Pods-practice-semimodall-swift4.2.release.xcconfig */,
+				56FB144BC4C7B9B730FC0043 /* Pods-practice-semimodall-swift4.2Tests.debug.xcconfig */,
+				38FCADCD226215ED638EDEFD /* Pods-practice-semimodall-swift4.2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B476AD735F113D3413F670C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F646B72E4FC0E0511860D /* Pods_practice_semimodall_swift4_2.framework */,
+				35F2B0C5719927AF3020A128 /* Pods_practice_semimodall_swift4_2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55112F9B224896A1003F3FFA /* practice-semimodall-swift4.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55112FB9224896A3003F3FFA /* Build configuration list for PBXNativeTarget "practice-semimodall-swift4.2" */;
+			buildPhases = (
+				8372F82AEFC76CF08F2FC401 /* [CP] Check Pods Manifest.lock */,
+				55112F98224896A1003F3FFA /* Sources */,
+				55112F99224896A1003F3FFA /* Frameworks */,
+				55112F9A224896A1003F3FFA /* Resources */,
+				1B0D6489FC32D3B9F9D81E77 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "practice-semimodall-swift4.2";
+			productName = "practice-semimodall-swift4.2";
+			productReference = 55112F9C224896A1003F3FFA /* practice-semimodall-swift4.2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55112FAF224896A3003F3FFA /* practice-semimodall-swift4.2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55112FBC224896A3003F3FFA /* Build configuration list for PBXNativeTarget "practice-semimodall-swift4.2Tests" */;
+			buildPhases = (
+				50A7ED742CD82D707336774B /* [CP] Check Pods Manifest.lock */,
+				55112FAC224896A3003F3FFA /* Sources */,
+				55112FAD224896A3003F3FFA /* Frameworks */,
+				55112FAE224896A3003F3FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55112FB2224896A3003F3FFA /* PBXTargetDependency */,
+			);
+			name = "practice-semimodall-swift4.2Tests";
+			productName = "practice-semimodall-swift4.2Tests";
+			productReference = 55112FB0224896A3003F3FFA /* practice-semimodall-swift4.2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55112F94224896A1003F3FFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "田辺信之";
+				TargetAttributes = {
+					55112F9B224896A1003F3FFA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					55112FAF224896A3003F3FFA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 55112F9B224896A1003F3FFA;
+					};
+				};
+			};
+			buildConfigurationList = 55112F97224896A1003F3FFA /* Build configuration list for PBXProject "practice-semimodall-swift4.2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55112F93224896A1003F3FFA;
+			productRefGroup = 55112F9D224896A1003F3FFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55112F9B224896A1003F3FFA /* practice-semimodall-swift4.2 */,
+				55112FAF224896A3003F3FFA /* practice-semimodall-swift4.2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55112F9A224896A1003F3FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55112FAA224896A3003F3FFA /* LaunchScreen.storyboard in Resources */,
+				55112FA7224896A3003F3FFA /* Assets.xcassets in Resources */,
+				55112FA5224896A1003F3FFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55112FAE224896A3003F3FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B0D6489FC32D3B9F9D81E77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practice-semimodall-swift4.2/Pods-practice-semimodall-swift4.2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practice-semimodall-swift4.2/Pods-practice-semimodall-swift4.2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-practice-semimodall-swift4.2/Pods-practice-semimodall-swift4.2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50A7ED742CD82D707336774B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practice-semimodall-swift4.2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8372F82AEFC76CF08F2FC401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practice-semimodall-swift4.2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55112F98224896A1003F3FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55112FA2224896A1003F3FFA /* TinyConstraintsViewController.swift in Sources */,
+				55112FA0224896A1003F3FFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55112FAC224896A3003F3FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55112FB5224896A3003F3FFA /* practice_semimodall_swift4_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55112FB2224896A3003F3FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55112F9B224896A1003F3FFA /* practice-semimodall-swift4.2 */;
+			targetProxy = 55112FB1224896A3003F3FFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55112FA3224896A1003F3FFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55112FA4224896A1003F3FFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55112FA8224896A3003F3FFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55112FA9224896A3003F3FFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55112FB7224896A3003F3FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55112FB8224896A3003F3FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55112FBA224896A3003F3FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA487E29F08919F66A18DA16 /* Pods-practice-semimodall-swift4.2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "practice-semimodall-swift4.2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanabe.practice-semimodall-swift4.2.practice-semimodall-swift4-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55112FBB224896A3003F3FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAC87F670C82A40477356D7 /* Pods-practice-semimodall-swift4.2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "practice-semimodall-swift4.2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanabe.practice-semimodall-swift4.2.practice-semimodall-swift4-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55112FBD224896A3003F3FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FB144BC4C7B9B730FC0043 /* Pods-practice-semimodall-swift4.2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN75UE492H;
+				INFOPLIST_FILE = "practice-semimodall-swift4.2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanabe.practice-semimodall-swift4.2.practice-semimodall-swift4-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practice-semimodall-swift4.2.app/practice-semimodall-swift4.2";
+			};
+			name = Debug;
+		};
+		55112FBE224896A3003F3FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38FCADCD226215ED638EDEFD /* Pods-practice-semimodall-swift4.2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN75UE492H;
+				INFOPLIST_FILE = "practice-semimodall-swift4.2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanabe.practice-semimodall-swift4.2.practice-semimodall-swift4-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practice-semimodall-swift4.2.app/practice-semimodall-swift4.2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55112F97224896A1003F3FFA /* Build configuration list for PBXProject "practice-semimodall-swift4.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55112FB7224896A3003F3FFA /* Debug */,
+				55112FB8224896A3003F3FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55112FB9224896A3003F3FFA /* Build configuration list for PBXNativeTarget "practice-semimodall-swift4.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55112FBA224896A3003F3FFA /* Debug */,
+				55112FBB224896A3003F3FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55112FBC224896A3003F3FFA /* Build configuration list for PBXNativeTarget "practice-semimodall-swift4.2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55112FBD224896A3003F3FFA /* Debug */,
+				55112FBE224896A3003F3FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55112F94224896A1003F3FFA /* Project object */;
+}
